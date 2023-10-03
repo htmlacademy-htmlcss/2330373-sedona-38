@@ -8,7 +8,7 @@
     <header class="page-header" data-test="header">
       <nav class="navigation">
 
-        <a class="navigation-logo">
+        <a class="navigation-logo" href="#">
             <img src="#" alt="Логотип сайта города Седона">
         </a>
 
@@ -35,7 +35,10 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
-                Нравится
+                icons-heart
+              </span>
+              <span class="heart">
+                12
               </span>
             </a>
           </li>
@@ -47,7 +50,6 @@
         </ul>
 
       </nav>
-
     </header>
 
     <main class="main-index" data-test="main">
@@ -64,12 +66,13 @@
 
       <section class="advantages" data-test="advantages">
 
-          <h2 class="visually-hidden">Преимущества</h2>
-          <h3 class="advantages-title">Настоящий городок</h3>
-          <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img src="#" alt="Фрагмент города на фоне гор">
-
+        <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3 class="advantages-title">Настоящий городок</h3>
+            <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img src="#" alt="Фрагмент города на фоне гор">
+          </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
             <p class="advantages-description">Все достопримечательности находятся очень близко</p>
@@ -82,22 +85,20 @@
             <h3 class="advantages-title">Мало туристов</h3>
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+
+          <li class="advantages-item">
+            <img src="#" alt="Пейзаж каньонов">
+            <h3 class="advantages-title">Там есть мост дьявола</h3>
+            <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </li>
         </ul>
 
-        <img src="#" alt="Пейзаж каньонов">
-        <h3 class="advantages-title">Там есть мост дьявола</h3>
-        <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-
       </section>
 
-      <section class="frame">
-        <h2 class="frame-title">
-          Приезжайте в Седону отдохнуть в комфорте и уюте!
-        </h2>
-        <p class="frame-description">
+      <h2 class="frame-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <p class="frame">
           Опытный персонал и качественное обслуживание!
         </p>
-      </section>
 
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
@@ -128,7 +129,7 @@
 
       <section class="subsccribe" data-test="subscribe">
         <h2 class="subsccribe-title">Подпишитесь на рассылку</h2>
-        <p class="subsccribe-description">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
+        <p class="subsccribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/">
           <input type="text" value="Ваш e-mail">
           <input type="submit" value="Подписаться">
@@ -137,35 +138,34 @@
     </main>
 
     <footer class="page-footer" data-test="footer">
-      <section class="footer-social">
-        <ul footer-social-list>
-          <li footer-social-item>
+
+      <ul footer-social-list>
+        <li footer-social-item>
             <a class="button" href="#">
               <img src="https://vk.com/htmlacademy" alt="Vkontakte">
             </a>
-          </li>
-          <li footer-social-item>
+        </li>
+        <li footer-social-item>
             <a class="button" href="#">
               <img src="https://t.me/htmlacademy" alt="Telegram">
             </a>
-          </li>
-          <li footer-social-item>
+        </li>
+        <li footer-social-item>
             <a class="button" href="#">
               <img src="https://www.youtube.com/user/htmlacademyru" alt="Youtube">
             </a>
-          </li>
-        </ul>
-      </section>
+        </li>
+      </ul>
 
-      <section class="iphone">
+      <div class="iphone">
         <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </section>
+      </div>
 
-      <section class="logo-developer">
+      <adress class="logo-developer">
         <a href="https://htmlacademy.ru/">
           <img src="#" alt="Логотип .htmlacademy">
         </a>
-      </section>
+      </adress>
     </footer>
   </body>
 </html>

@@ -7,9 +7,11 @@
   <body>
     <header class="page-header" data-test="header">
       <nav class="navigation">
-        <p class="logo">
-          <img src="#" alt="Логотип сайта города Седона">
-        </p>
+
+        <a class="navigation-logo" href="#">
+            <img src="#" alt="Логотип сайта города Седона">
+        </a>
+
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="#">Главная</a>
@@ -21,6 +23,7 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
+
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -32,7 +35,10 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">
-                Нравится
+                icons-heart
+              </span>
+              <span class="heart">
+                12
               </span>
             </a>
           </li>
@@ -42,6 +48,7 @@
             </a>
           </li>
         </ul>
+
       </nav>
     </header>
 
@@ -293,35 +300,34 @@
     </main>
 
     <footer class="page-footer" data-test="footer">
-      <section class="footer-social">
-        <ul footer-social-list>
-          <li footer-social-item>
+
+      <ul footer-social-list>
+        <li footer-social-item>
             <a class="button" href="#">
               <img src="https://vk.com/htmlacademy" alt="Vkontakte">
             </a>
-          </li>
-          <li footer-social-item>
+        </li>
+        <li footer-social-item>
             <a class="button" href="#">
               <img src="https://t.me/htmlacademy" alt="Telegram">
             </a>
-          </li>
-          <li footer-social-item>
+        </li>
+        <li footer-social-item>
             <a class="button" href="#">
               <img src="https://www.youtube.com/user/htmlacademyru" alt="Youtube">
             </a>
-          </li>
-        </ul>
-      </section>
+        </li>
+      </ul>
 
-      <section class="iphone">
+      <div class="iphone">
         <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </section>
+      </div>
 
-      <section class="logo-developer">
+      <adress class="logo-developer">
         <a href="https://htmlacademy.ru/">
           <img src="#" alt="Логотип .htmlacademy">
         </a>
-      </section>
+      </adress>
     </footer>
   </body>
 </html>
