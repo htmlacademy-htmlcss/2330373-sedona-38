@@ -1,0 +1,370 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  background-color: #F2F2F2;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.page-container {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.20);
+}
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-list {
+  text-align: center;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  color: inherit;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+
+.heart {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #7DB54F;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+
+}
+
+.main-index-img {
+  background-color: #3f98d996;
+  background-image: url("../images/hero-sedona.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  text-align: center;
+}
+
+.title-index {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hero-description {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages {
+  text-align: center;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.advantages li:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages li:first-child,
+.advantages li:last-child {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.advantages-description-first-last {
+  color: #FFFFFF;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-frame {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages-last {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.advantages-last-description {
+  font-weight: 400;
+  color: #333;
+}
+
+
+.advantages-last-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-last li:last-child,
+.advantages-last li:first-child {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.hotel {
+  text-align: center;
+}
+
+.hotel-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+}
+
+.search-hotel {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.subsccribe {
+  background-color: #3f98d996;
+  background-image: url(../images/subscribe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.subsccribe-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.subsccribe-input-mail {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.subsccribe-input {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+
+.iphone-link {
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.filter {
+  background-color: #3f98d996;
+  background-image: url(../images/filter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.main-catalog-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.filter-text {
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.filter-range-control {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.filter-range-input {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.filter-submit {
+  background-color: #82B3D3;
+}
+
+.filter-reset {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+
+.catalog-title,
+.catalog-number {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+
+.catalog-select, .catalog-option {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333;
+}
+
+.catalog-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.catalog-text {
+  font-weight: 400;
+  color: #333333;
+}
+
+.catalog-link {
+  text-decoration: none;
+}
+
+.catalog-button {
+  background-color: #82B3D3;
+}
+
+.catalog-button-active {
+  background-color: #7DB54F;
+}
+
+.catalog-rating {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+
+.pagination-item {
+  background-color: #82B3D3;
+}
+
+.pagination-item-active {
+  background-color: #F2F2F2;
+}
+
+.pagination-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.pagination-link-active {
+  color: #000000;
+}
+
+.pagination-item-dot {
+  background-color: #FFFFFF;
+}
+
+.pagination-link-dot {
+  color: #000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
