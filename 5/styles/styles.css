@@ -20,6 +20,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  font-weight: 400;
 }
 
 .page-container {
@@ -88,7 +89,6 @@ body {
 .hero-description {
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   line-height: 26px;
   color: #333333;
 }
@@ -107,7 +107,6 @@ body {
 
 .advantages-description {
   font-size: 18px;
-  font-weight: 400;
   color: #333333;
 }
 
@@ -131,7 +130,6 @@ body {
 
 .search-frame {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   color: #333333;
 }
@@ -142,7 +140,6 @@ body {
 }
 
 .advantages-last-description {
-  font-weight: 400;
   color: #333;
 }
 
@@ -165,7 +162,6 @@ body {
 
 .hotel-description {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   color: #333333;
 }
@@ -188,7 +184,6 @@ body {
 
 .subsccribe-description {
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
 }
 
@@ -257,7 +252,6 @@ body {
 
 .filter-range-control {
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   color: #000;
 }
@@ -289,7 +283,7 @@ body {
 
 
 .catalog-select, .catalog-option {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -303,7 +297,6 @@ body {
 }
 
 .catalog-text {
-  font-weight: 400;
   color: #333333;
 }
 
@@ -321,7 +314,6 @@ body {
 
 .catalog-rating {
   font-size: 16px;
-  font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
   background-color: #F2F2F2;
